@@ -45,6 +45,10 @@
     padding-top: 20px;
 }
 
+.footer_images a {
+    color: #181818;
+}
+
 .footer_images img {
     margin-right: 24px;
 }
