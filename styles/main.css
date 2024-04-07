@@ -1,0 +1,208 @@
+/* FEATURES */
+
+.main_features,
+.main_content,
+.main_gallery,
+.main_partners,
+.main_testimonials,
+.main_testimonials {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_title,
+.main_subtitle {
+    margin-bottom: 0px;
+    font-family: "RobotoB", sans-serif;
+}
+
+.main_title {
+    margin-top: 162px;
+    font-size: 52px;
+}
+
+.main_subtitle {
+    margin-top: 27px;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+.main_image {
+    margin-top: 80px;
+    display: flex;
+}
+
+.main_image ul {
+    padding: 0;
+    margin-top: -35px;
+}
+
+.main_image ul li {
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+.main_li_header {
+    display: flex;
+    align-items: center;
+    font-family: "RobotoM", sans-serif;
+}
+
+.main_li_header img {
+    margin-right: 13px;
+}
+
+.main_li_footer {
+    display: inline-block;
+    margin-top: 20px;
+    width: 270px;
+    font-family: "RobotoB", sans-serif;
+}
+
+/* CONTENT */
+
+.main_cards {
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    padding: 40px 35px;
+}
+
+.main_card h1 {
+    margin: 0;
+    color: black;
+    font-size: 20px;
+    font-family: "RobotoM", sans-serif;
+    text-align: center;
+
+}
+
+.main_card h5 {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #5C5C5C;
+    font-family: "RobotoL", sans-serif;
+    text-align: center;
+    width: 270px;
+}
+
+.first_card {
+    margin-right: 33px;
+}
+
+/* GALLARY */
+
+.galary_title {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.galary_title h1 {
+    margin: 0;
+    padding: 10px 10px;
+    font-size: 52px;
+    font-family: "RobotoB", sans-serif;
+}
+
+.galary_title h5 {
+    margin: 0;
+    margin-bottom: 44px;
+    padding: 10px 10px;
+    font-family: "RobotoL", sans-serif;
+}
+
+.gallary_image_first,
+.gallary_image_two {
+    margin-bottom: 44px;
+}
+
+.gallary_image_first img,
+.gallary_image_two img {
+    border-radius: 12px;
+    margin-right: 33px;
+}
+
+/* PARTNERS */
+
+.main_logos {
+    margin-left: 74px;
+}
+
+.partners_title h1 {
+    margin: 0;
+    margin-top: 150px;
+    padding: 10px 10px;
+    font-size: 52px;
+    text-align: center;
+    font-family: "RobotoB", sans-serif;
+    
+}
+
+.partners_title h5 {
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    font-family: "RobotoL", sans-serif;
+}
+
+.main_logos img {
+    margin-right: 74px;
+    margin-bottom: 50px;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+    margin-top: 50px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    margin-right: 23px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 430px;
+}
+
+.testimonial_title {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.testimonial_title img {
+    margin-right: 23px;
+}
+
+.testimonial_name,
+.testimonial_job {
+    font-family: "RobotoM", sans-serif;
+}
+
+.testimonial_name {
+    margin-bottom: 6px;
+}
+
+.testimonial_content {
+    font-family: "RobotoL", sans-serif;
+}
